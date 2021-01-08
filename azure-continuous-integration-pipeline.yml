@@ -5,7 +5,8 @@ resources:
   repositories:
     - repository: pipelineTemplateRepository
       type: github
-      name: icraftsoftware/Be.Stateless.Build.Agent.Yaml.Pipeline.Templates
+      name: emmanuelbenitez/Be.Stateless.Build.Agent.Yaml.Pipeline.Templates
+      ref: refs/heads/use-vstest
       endpoint: github.com_icraftsoftware
 
 extends:
